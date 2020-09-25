@@ -6,18 +6,19 @@ def nyc_pigeon_organizer(data)
     value.each do |inner_attribute, inner_value|
       inner_value.each do |name|
      
-      if !new_hash[name] == nil
+      if new_hash[name] == nil
         new_hash[name] = {}
         
       end
-      if !new_hash[name][attribute] == nil
-        !new_hash[name][attribute] = []
+      if new_hash[name][attribute] == nil
+        new_hash[name][attribute] = []
       end
       new_hash[name][attribute].push(inner_attribute.to_s)
-        binding.pry
+        
       end
   end
 end
+binding.pry
  end
 
      
