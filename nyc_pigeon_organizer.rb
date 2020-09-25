@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       if new_hash[name][attribute] == nil
         new_hash[name][attribute] = []
       end
-      new_hash[attribute][value].push(inner_value)
+      new_hash[attribute][value].push(inner_attribute)
         binding.pry
       end
   end
