@@ -19,9 +19,4 @@ def nyc_pigeon_organizer(data)
 end
  end
 
-#.each do |key, name|
-      #if data[:key].include?(name)
-        #new_array.push(name)
-        #elsif data[:key].each do |key, name|
-         # new_array.push(data[:key][:name])
      
