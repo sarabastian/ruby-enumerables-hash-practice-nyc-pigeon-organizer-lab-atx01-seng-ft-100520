@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
    
   end
 end
- 
+ end
 
 #.each do |key, name|
       #if data[:key].include?(name)
