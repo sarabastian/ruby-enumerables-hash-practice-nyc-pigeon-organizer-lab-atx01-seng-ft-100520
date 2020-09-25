@@ -5,11 +5,11 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute, value|
     value.each do |inner_attribute, inner_value|
       inner_value.each do |name|
-      if new_hash[name] == nil
+      if !new_hash[name] == nil
         new_hash[name] = {}
         
       end
-      if new_hash[name][attribute] == nil
+      if !new_hash[name][attribute] == nil
         new_hash[name][attribute] = []
       end
       new_hash[name][value].push(inner_attribute)
